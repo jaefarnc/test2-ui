@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Alegreya:wght@400;500;600;700&family=Poppins&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+#root{
+    --blue : rgb(0, 255, 242);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&family=Alegreya:wght@400;500;600;700&family=Poppins&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+#root{
+    --blue : rgb(0, 255, 242);
+}
+
+.user-homepage{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.user-right{
+    margin-left: auto;
+    margin-right: 20px;
+}
+.log-out{
+    border:2px solid white;
+    padding:10px 30px;
+    color: white;
+    border-radius: 10px;    
+    height:auto;
+    margin-left: auto;
+    margin-right: 20px;
+    -webkit-transform:scale(2.0);
+    transform:scale(2.0) ;
+}
+
+.log-out:hover{
+    border: 2px solid transparent;
+    color: var(--blue);
+}
+
+.user-profile{
+     margin-right: 60px;
+     text-decoration: none;
+}
+
+
+
+.header-user{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width:90vw;
+}
+
+.navigation-user ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    gap: 20%;
+
+}
+
+.navigation-user a{
+   background: linear-gradient(45deg, rgb(28, 28, 28),black);
+   border-radius: 16px;
+   width: auto;
+   font-family: 'Poppins';
+   padding: 16px 40px;
+   align-items: center;
+
+}
+
+.navigation-user a{
+    color: white;
+    font-size: 30px;
+}
+
+.navigation-user .nav-active{
+    background: linear-gradient(45deg,red,maroon);
+}
